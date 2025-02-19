@@ -1,0 +1,281 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website | Mariem Bejaoui</title>
+
+    <!-- Lien vers la feuille de style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+
+    <!--box icons-->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <!-- Importation de la police Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+    <!--emailJs-->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        emailjs.init('oEB1WBdu1RIzNz2Gi');
+    </script>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills-section">Skills And Tools</a>
+            <!--
+            <a href="#portfolio">Portfolio</a>
+            -->
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Mariem Bejaoui</h1>
+            <h3>And I'm a <span class="multiple-text"></span>
+            </h3>
+            <p>I'm a passionate Software Engineer specializing in Full-Stack Development, with a deep enthusiasm for web, mobile, and desktop applications, as well as DevOps.<br> I love turning ideas into powerful, seamless digital experiences!</p>
+            <div class="social-media">
+
+                <a href="https://www.linkedin.com/in/mariem-bejaoui-422600177/"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/MariemBejaouii"><i class='bx bxl-github' ></i></a>
+                <!--
+                <a href="https://www.facebook.com/mariem.bejaoui.96155669"><i class='bx bxl-facebook'></i></a>
+                -->
+                <a href="https://www.instagram.com/marieem.bejaoui/?igsh=NG1mcWM4Y3ptOW56#"><i class='bx bxl-instagram' ></i></a>
+            </div>
+            <!--<a href="# " class="btn ">Download CV</a>-->
+        </div>
+        <div class='home-img'>
+            <img src="images/developpeur-de-logiciels.png " alt=" "> </div>
+
+    </section>
+
+
+    <!--about section design-->
+    <section class="about" id="about">
+        <div class="stage-cube-cont">
+            <div class="cubespinner">
+                <div class="face face1"><img src="images/angular.svg" alt="Angular"></div>
+                <div class="face face2"><img src="images/spring-boot.svg" alt="Spring-boot"></div>
+                <div class="face face3"><img src="images/dotnet.svg" alt="dotnet"></div>
+                <div class="face face4"><img src="images/java.webp" alt="Java_Logo"></div>
+                <div class="face face5"><img src="images/node-js.svg" alt="node-js"></div>
+                <div class="face face6"><img src="images/ionic.svg" alt="ionic"></div>
+            </div>
+        </div>
+
+        <div class="about-content ">
+            <h2 class="heading ">
+                About <span>Me</span>
+            </h2>
+            <!--
+            Fullstack Developer</h3>
+            -->
+            <h3>
+                <p>
+                    Passionate about development, I specialize in creating high-performance and optimized applications. My expertise spans modern technologies and best practices, ensuring the delivery of innovative solutions tailored to users needs.<br>                    In addition to my development skills, I have a solid foundation in DevOps and am currently deepening my knowledge in this field. I actively work with tools like Docker, Jenkins, SonarQube, Nexus, Prometheus and Grafana to streamline
+                    and automate processes.<br> I am committed to delivering high-quality solutions and take pride in solving complex problems. As a self-taught developer, I continuously learn and grow. I hold an Engineering Degree in Software Engineering
+                    and a Bachelor's Degree in Computer Science.</p>
+
+    </section>
+
+    <!--service section design
+    <section class="services" id="services">
+        <h2 class="heading ">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Developpment</h3>
+                <p>I develop modern, responsive, and secure web applications, ensuring scalability and a seamless user experience.</p>
+            </div>
+
+
+            <div class="services-box">
+                <i class='bx bx-mobile-vibration'></i>
+                <h3>Mobile Developpment</h3>
+                <p>I create high-performance mobile applications with smooth and intuitive user experiences.</p>
+            </div>
+
+
+            <div class="services-box">
+                <i class='bx bx-desktop'></i>
+                <h3>Desktop Developpment</h3>
+                <p>I design and build efficient, cross-platform desktop applications with robust features and a user-friendly interface.</p>
+            </div>
+        </div>
+    </section>
+-->
+    <section class="skills-section" id="skills-section">
+        <h2 class="section-title">Development Skills And Tools</h2>
+        <div class="skills-container">
+            <div class="skill"><img src="images/angular.svg" alt="Angular"> <span>Angular</span></div>
+            <div class="skill"><img src="images/spring-boot.svg" alt="Spring Boot"> <span>Spring Boot</span></div>
+            <div class="skill"><img src="images/java.webp" alt="Java"> <span>Java</span></div>
+            <div class="skill"><img src="images/js.png" alt="JavaScript"> <span>JavaScript</span></div>
+            <div class="skill"><img src="images/ts.png" alt="TypeScript"> <span>TypeScript</span></div>
+            <div class="skill"><img src="images/dotnet.svg" alt=".NET"> <span>.NET</span></div>
+            <div class="skill"><img src="images/symfony-icon.webp" alt="Symfony"> <span>Symfony</span></div>
+            <div class="skill"><img src="images/androidd.png" alt="Android"> <span>Android</span></div>
+            <div class="skill"><img src="images/ionic.svg" alt="Ionic"> <span>Ionic</span></div>
+            <div class="skill"><img src="images/mongodb.svg" alt="MongoDB"> <span>MongoDB</span></div>
+            <div class="skill"><img src="images/mysql.svg" alt="MySQL"> <span>MySQL</span></div>
+            <div class="skill"><img src="images/postgresql-icon.svg" alt="PostgreSQL"> <span>PostgreSQL</span></div>
+        </div>
+
+        <h2 class="section-title">DevOps Skills And Tools</h2>
+        <div class="skills-container">
+            <div class="skill"><img src="images/jenkins.svg" alt="Jenkins"> <span>Jenkins</span></div>
+            <div class="skill"><img src="images/docker.svg" alt="Docker"> <span>Docker</span></div>
+            <div class="skill"><img src="images/sq.svg" alt="SonarQube"> <span>SonarQube</span></div>
+            <div class="skill"><img src="images/nexus.png" alt="Nexus"> <span>Nexus</span></div>
+            <div class="skill"><img src="images/grafana-icon.webp" alt="Grafana"> <span>Grafana</span></div>
+            <div class="skill"><img src="images/Prometheus_software_logo.svg.png" alt="Prometheus"> <span>Prometheus</span></div>
+
+        </div>
+    </section>
+    <!--portfolio section design-->
+    <!--
+   
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading "> Latest <span>Project</span>
+        </h2>
+
+        <div class="portfolio-container ">
+            <div class="portfolio-box ">
+                <img src="images/home.png " alt=" "> v c
+                <div class="portfolio-layer ">
+                    <h4>Web Design</h4>
+                    <p>bfhdg,fio,bosv,svfkgoejgergiosc,soifb,ezoef,aodcqvobe,rzgopfaqc,vfbdopehrzgsdv</p>
+
+                    <a href="# "><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/home.png " alt=" "> v c
+                <div class="portfolio-layer ">
+                    <h4>Web Design</h4>
+                    <p>bfhdg,fio,bosv,svfkgoejgergiosc,soifb,ezoef,aodcqvobe,rzgopfaqc,vfbdopehrzgsdv</p>
+
+                    <a href="# "><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/home.png " alt=" "> v c
+                <div class="portfolio-layer ">
+                    <h4>Web Design</h4>
+                    <p>bfhdg,fio,bosv,svfkgoejgergiosc,soifb,ezoef,aodcqvobe,rzgopfaqc,vfbdopehrzgsdv</p>
+
+                    <a href="# "><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/home.png " alt=" "> v c
+                <div class="portfolio-layer ">
+                    <h4>Web Design</h4>
+                    <p>bfhdg,fio,bosv,svfkgoejgergiosc,soifb,ezoef,aodcqvobe,rzgopfaqc,vfbdopehrzgsdv</p>
+
+                    <a href="# "><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/home.png" alt=" "> v c
+                <div class="portfolio-layer ">
+                    <h4>Web Design</h4>
+                    <p>bfhdg,fio,bosv,svfkgoejgergiosc,soifb,ezoef,aodcqvobe,rzgopfaqc,vfbdopehrzgsdv</p>
+
+                    <a href="# "><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/home.png " alt=" "> v c
+                <div class="portfolio-layer ">
+                    <h4>Web Design</h4>
+                    <p>bfhdg,fio,bosv,svfkgoejgergiosc,soifb,ezoef,aodcqvobe,rzgopfaqc,vfbdopehrzgsdv</p>
+
+                    <a href="# "><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     -->
+    <!-- contact section design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form id="form">
+            <div class="input-box">
+                <input type="text" id="fullname" placeholder="Full Name" required>
+                <input type="email" id="email" placeholder="Email Address" required>
+            </div>
+
+            <div class="input-box">
+                <input type="number" id="phone_number" placeholder="Mobile Number">
+                <input type="text" id="subject" placeholder="Email Subject">
+            </div>
+
+            <textarea id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+
+            <input type="submit" id="button" value="Send Email" class="btn">
+        </form>
+
+
+    </section>
+
+
+    <!--footer desgin-->
+
+    <footer class=" footer ">
+        <div class="footer-text ">
+            <p>Copyright &copy; 2025 by Mariem Bejaoui | All rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop ">
+            <a href="#home "><i class='bx bxs-arrow-from-bottom' ></i></a>
+        </div>
+
+
+    </footer>
+
+    <!--Scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal "></script>
+
+
+    <!--typed js-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js "></script>
+
+
+    <!--custom js-->
+    <script src="js/script.js "></script>
+</body>
